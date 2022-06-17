@@ -31,7 +31,7 @@ fibonacci();
 
 //Función que pasa todos los valores de un array a mayúsculas
 const mayus = () => {
-  const arr = ["Pedro", "Daniela", "Martín", "Carla", "Juan", "María"];
+  const arr = ["Pikachu", "Charmander", "Bulbasaur", "Squirtle"];
 
   for (let i = 0; i < arr.length; i++) {
     console.log(arr[i].toUpperCase());
@@ -49,8 +49,8 @@ const fuego = () => {
     { name: "Charmander", type: "Fire" },
     { name: "Bulbasaur", type: "Grass" },
     { name: "Squirtle", type: "Water" },
-    { name: "Vulpix", type: "Fire" },
-    { name: "Venusaur", type: "Grass" },
+    { name: "Charmeleon", type: "Fire" },
+    { name: "Weedle", type: "Insect" },
     { name: "Charizard", type: "Fire" },
   ];
 
